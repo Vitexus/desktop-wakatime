@@ -1,0 +1,42 @@
+Source: desktop-wakatime
+Section: utils
+Priority: optional
+Maintainer: Wakatime <support@wakatime.com>
+Build-Depends: debhelper-compat (= 13), nodejs, npm
+Standards-Version: 4.6.0
+Homepage: https://github.com/wakatime/desktop-wakatime
+
+Package: desktop-wakatime
+Architecture: amd64 arm64
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ libasound2,
+ libatk1.0-0,
+ libatk-bridge2.0-0,
+ libcairo2,
+ libcups2,
+ libdrm2,
+ libgbm1,
+ libglib2.0-0,
+ libgtk-3-0,
+ libnss3,
+ libx11-xcb1,
+ libxcb1,
+ libxcomposite1,
+ libxcursor1,
+ libxdamage1,
+ libxext6,
+ libxfixes3,
+ libxi6,
+ libxrandr2,
+ libxrender1,
+ libxss1,
+ libxtst6
+Description: Desktop application for WakaTime time tracking
+ WakaTime is a time tracking service for programmers. This desktop
+ application allows you to track the time you spend on projects
+ directly from your desktop, providing insights into your
+ productivity and coding habits.
+ .
+ It integrates with WakaTime's web service to provide analytics
+ and visualizations of your programming activity.
+

@@ -1,0 +1,8 @@
+desktop-wakatime (2.1.6-1) unstable; urgency=medium
+
+  * Initial release of desktop-wakatime package
+  * Packaged WakaTime desktop application for Debian-based systems
+  * Supports both amd64 and arm64 architectures
+
+ -- Wakatime <support@wakatime.com>  Sun, 01 Jun 2025 21:47:38 +0200
+
